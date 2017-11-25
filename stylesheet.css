@@ -236,3 +236,100 @@ label {
     align-content: center;
     width: 1%;
 }
+
+.MiddleContent{
+    text-align: center;
+}
+
+.MiddleContent h2{
+    padding-top: 25px;
+    font-size: 200%;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+}
+
+.MiddleContent hr{
+    color: white;
+    border-style: solid;
+    border-width: 3px;
+    max-width: 10%;
+    border-radius: 10px;
+}
+
+.MiddleContent p{
+    font-size: 18px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MiddleContent a {
+    padding: 15px 30px;
+    border-radius: 300px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: white;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    color: #222222;
+    transition-duration: 0.4s;
+    object-position: center;
+    position: static;
+}
+
+.MiddleContent a:hover{
+    background-color: #2F688D;
+    color: white;
+}
+
+#End_Footer{
+    background-color: #222222;
+    margin: 0;
+    position: fixed;
+    bottom:0;
+    width:100%;
+}
+
+#Hover_Mode{
+  position: absolute;
+  width:100%;
+  align-content: center;
+  bottom: -200%;
+  background-color: #222222; 
+  transition: all 0.5s ease;
+}
+
+#End_Footer:hover #Hover_Mode{
+    bottom: 0;
+}
+
+.cardV {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.cardV:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.PLIPage {
+    height: 300px;
+    width: 70%;
+    float:right;
+    background-color: #7DB8DE;
+    padding-left: 1%
+}
+
+.PLIPage img {
+    height: 150px;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.PLIPage img:hover {
+    height: 170px;
+}
