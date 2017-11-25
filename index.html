@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="material-icons.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> </head>
+
+<body style="background-image: url(images/header.jpg)">
+    <nav>
+        <div class="nav-wrapper"> <a href="#!" class="brand-logo center">Ali60351</a>
+        </div>
+    </nav>
+    
+    <div style="padding-top: 20%; display: block; margin-left: auto; margin-right: auto; text-align: center;" class="white-text">
+        <h2>Ali Nauman</h2>
+        <div class="progress">
+            <div class="indeterminate"></div>
+        </div>
+        <p>ali60351@gmail.com</p>
+    </div>
+    
+    <script type="text/javascript" src="./jquery.min.js"></script>
+    <script type="text/javascript" src="./hammer.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        // Initialize collapse button
+        $(".button-collapse").sideNav();
+        // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+        $('.collapsible').collapsible();
+        $(document).ready(function () {
+            $('select').material_select();
+        });
+        $(".dropdown-button").dropdown();
+    </script>
+</body>
+
+</html>
